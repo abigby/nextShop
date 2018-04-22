@@ -9,8 +9,8 @@ const AnyReactComponet = ({ text }) => {
 }
 class NextShopMap extends Component {
     static defaultProps = {
-        center: {lat: 59.95, lng: 30.33},
-        zoom: 11
+        center: {lat:38.850033, lng:-92.6500523},
+        zoom: 5
     }
 
     render() {
