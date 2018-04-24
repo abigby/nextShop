@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  outline: none;
+  outline: none !important;
   margin: 0;
   padding: 0;
   box-shadow: none;
@@ -12,11 +12,25 @@
   left: 20px;
   background-color: #fff;
   z-index: 9999999999999999;
-  padding: 0.2em 1em;
+  padding: 2em;
+  /* height: 50px; */
 }
 
 #omniSearchBox input {
   border: 0;
+  height: 50px;
+  z-index: 99999999999;
+}
+
+#stateOption, #cityOption, #distanceOption {
+  width: 100%;
+  clear: both;
+}
+
+.icon-btn {
+  background-color: #fff;
+  padding: 0;
+  height: 50px;
 }
 
 @keyframes App-logo-spin {
